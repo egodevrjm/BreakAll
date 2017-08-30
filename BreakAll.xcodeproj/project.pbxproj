@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		706E33A21F474A2E00D04715 /* crack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 706E33A11F474A2E00D04715 /* crack.mp3 */; };
 		70DD1D0D1F4635C600AE27C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DD1D0C1F4635C600AE27C6 /* AppDelegate.swift */; };
 		70DD1D0F1F4635C600AE27C6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 70DD1D0E1F4635C600AE27C6 /* GameScene.sks */; };
 		70DD1D111F4635C600AE27C6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 70DD1D101F4635C600AE27C6 /* Actions.sks */; };
@@ -15,9 +16,13 @@
 		70DD1D181F4635C600AE27C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DD1D161F4635C600AE27C6 /* Main.storyboard */; };
 		70DD1D1A1F4635C600AE27C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DD1D191F4635C600AE27C6 /* Assets.xcassets */; };
 		70DD1D1D1F4635C600AE27C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DD1D1B1F4635C600AE27C6 /* LaunchScreen.storyboard */; };
+		70DD1D251F465AF200AE27C6 /* brick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70DD1D241F465AF200AE27C6 /* brick.mp3 */; };
+		70DD1D271F465D4E00AE27C6 /* gameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70DD1D261F465D4E00AE27C6 /* gameOver.mp3 */; };
+		70DD1D291F465EA000AE27C6 /* pong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70DD1D281F465EA000AE27C6 /* pong.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		706E33A11F474A2E00D04715 /* crack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crack.mp3; sourceTree = "<group>"; };
 		70DD1D091F4635C600AE27C6 /* BreakAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DD1D0C1F4635C600AE27C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70DD1D0E1F4635C600AE27C6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +33,9 @@
 		70DD1D191F4635C600AE27C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70DD1D1C1F4635C600AE27C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70DD1D1E1F4635C600AE27C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DD1D241F465AF200AE27C6 /* brick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brick.mp3; sourceTree = "<group>"; };
+		70DD1D261F465D4E00AE27C6 /* gameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameOver.mp3; sourceTree = "<group>"; };
+		70DD1D281F465EA000AE27C6 /* pong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pong.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +72,11 @@
 				70DD1D0E1F4635C600AE27C6 /* GameScene.sks */,
 				70DD1D101F4635C600AE27C6 /* Actions.sks */,
 				70DD1D121F4635C600AE27C6 /* GameScene.swift */,
+				70DD1D261F465D4E00AE27C6 /* gameOver.mp3 */,
+				70DD1D281F465EA000AE27C6 /* pong.mp3 */,
 				70DD1D141F4635C600AE27C6 /* GameViewController.swift */,
+				706E33A11F474A2E00D04715 /* crack.mp3 */,
+				70DD1D241F465AF200AE27C6 /* brick.mp3 */,
 				70DD1D161F4635C600AE27C6 /* Main.storyboard */,
 				70DD1D191F4635C600AE27C6 /* Assets.xcassets */,
 				70DD1D1B1F4635C600AE27C6 /* LaunchScreen.storyboard */,
@@ -133,8 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				706E33A21F474A2E00D04715 /* crack.mp3 in Resources */,
 				70DD1D181F4635C600AE27C6 /* Main.storyboard in Resources */,
 				70DD1D0F1F4635C600AE27C6 /* GameScene.sks in Resources */,
+				70DD1D291F465EA000AE27C6 /* pong.mp3 in Resources */,
+				70DD1D271F465D4E00AE27C6 /* gameOver.mp3 in Resources */,
+				70DD1D251F465AF200AE27C6 /* brick.mp3 in Resources */,
 				70DD1D1A1F4635C600AE27C6 /* Assets.xcassets in Resources */,
 				70DD1D1D1F4635C600AE27C6 /* LaunchScreen.storyboard in Resources */,
 				70DD1D111F4635C600AE27C6 /* Actions.sks in Resources */,
@@ -314,6 +330,7 @@
 				70DD1D231F4635C600AE27C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

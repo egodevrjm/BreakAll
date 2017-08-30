@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +21,36 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="egodev_white" translatesAutoresizingMaskIntoConstraints="NO" id="SE5-0N-OwG">
+                                <rect key="frame" x="103" y="495" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="3qU-ug-CP8"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paddleGame" translatesAutoresizingMaskIntoConstraints="NO" id="V28-CO-OuN">
+                                <rect key="frame" x="80" y="159" width="215" height="260"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13632875680923462" green="0.46329319477081299" blue="0.78298956155776978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SE5-0N-OwG" firstAttribute="top" secondItem="V28-CO-OuN" secondAttribute="bottom" constant="76" id="5gV-an-AJM"/>
+                            <constraint firstItem="SE5-0N-OwG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="87" id="CHb-N5-nP8"/>
+                            <constraint firstItem="V28-CO-OuN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FhV-8z-j6Q"/>
+                            <constraint firstItem="V28-CO-OuN" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="139" id="HCk-4y-MlV"/>
+                            <constraint firstItem="V28-CO-OuN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="64" id="RfY-5J-fNC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SE5-0N-OwG" secondAttribute="trailing" constant="16" id="bIY-FI-OXa"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="SE5-0N-OwG" secondAttribute="bottom" constant="44" id="tKR-n1-OuM"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="egodev_white" width="4096" height="2304"/>
+        <image name="paddleGame" width="1024" height="1024"/>
+    </resources>
 </document>
